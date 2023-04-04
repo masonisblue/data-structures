@@ -7,7 +7,7 @@ var Queue = function() {
 
 };
 
-
+// gotta refactor this otherwise prototype inheritance is reset
 Queue.prototype = {
 
   enqueue: function(value) {

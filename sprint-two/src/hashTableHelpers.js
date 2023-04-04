@@ -11,6 +11,8 @@
 //   limitedArray.set(3, 'hi');
 //   limitedArray.get(3); // returns 'hi'
 
+// { [[k, v], [k2, v2]]              }
+
 var LimitedArray = function(limit) {
   var storage = [];
 
